@@ -46,7 +46,6 @@ pip install -r requirements_pytorch.txt
 ```bash
 python web_app.py
 ```
-Open browser: http://127.0.0.1:5000
 
 ### 3. Test from CLI
 ```bash
@@ -79,7 +78,6 @@ python test_prediction.py path/to/food_image.jpg
 python test_prediction.py ../FOOD_DATA/pizza/image.jpg
 ```
 
-## 🎓 For College Review
 This project demonstrates:
 - ✅ Deep Learning fundamentals (CNN architecture)
 - ✅ GPU-accelerated training
@@ -93,9 +91,6 @@ This project demonstrates:
 - Deploy to cloud (Heroku/AWS)
 - Mobile app integration
 - Real-time calorie tracking
-
-## 👤 Author
-College Deep Learning Project - 2025
 
 ---
 **Note**: Model trained from scratch (not pre-trained) as educational project.
