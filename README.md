@@ -1,8 +1,8 @@
-# 🍕 Food Classifier with CNN & Nutrition Analysis
+# Food Classifier with CNN & Nutrition Analysis
 
 A deep learning project that classifies 7 food categories and provides nutritional information using PyTorch CNN trained on RTX 4050 GPU.
 
-## 📁 Project Structure
+## Project Structure
 ```
 cal_dnn/
 ├── train_food_classifier_pytorch.py    # Training script
@@ -24,14 +24,14 @@ cal_dnn/
 └── gpu_env/                            # Virtual environment
 ```
 
-## 🎯 Features
+## Features
 - **7 Food Classes**: Chicken Curry, Chicken Wings, French Fries, Grilled Cheese Sandwich, Omelette, Pizza, Samosa
 - **CNN Architecture**: 3 convolutional layers, 16.8M parameters
 - **GPU Training**: CUDA-accelerated training on RTX 4050
 - **Web Interface**: Beautiful Flask app with drag-and-drop upload
 - **Nutrition Info**: Calories, protein, fat, fiber, carbs for each food
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Setup Environment
 ```bash
@@ -52,13 +52,13 @@ python web_app.py
 python test_prediction.py path/to/food_image.jpg
 ```
 
-## 📊 Model Performance
+## Model Performance
 - **Training Accuracy**: 94.09%
 - **Validation Accuracy**: 44.86%
 - **Training Time**: ~5-10 minutes on RTX 4050
 - **Dataset Size**: 7,000 images (80-20 train-val split)
 
-## 🛠️ Technical Details
+## Technical Details
 - **Framework**: PyTorch 2.5.1 with CUDA 12.1
 - **Architecture**: Custom CNN (Conv2D → MaxPool → Dense)
 - **Input Size**: 128×128 RGB images
@@ -66,7 +66,7 @@ python test_prediction.py path/to/food_image.jpg
 - **Loss Function**: Cross-Entropy
 - **Data Augmentation**: Rotation, flip, color jitter
 
-## 📱 Usage Examples
+## Usage Examples
 
 ### Web Interface
 1. Upload food image
@@ -79,13 +79,13 @@ python test_prediction.py ../FOOD_DATA/pizza/image.jpg
 ```
 
 This project demonstrates:
-- ✅ Deep Learning fundamentals (CNN architecture)
-- ✅ GPU-accelerated training
-- ✅ Full-stack ML application (training + deployment)
-- ✅ Real-world problem solving (food classification + nutrition)
-- ✅ Understanding of overfitting and model evaluation
+- Deep Learning fundamentals (CNN architecture)
+- GPU-accelerated training
+- Full-stack ML application (training + deployment)
+- Real-world problem solving (food classification + nutrition)
+- Understanding of overfitting and model evaluation
 
-## 📈 Future Improvements
+## Future Improvements
 - Reduce overfitting with better regularization
 - Add more food categories
 - Deploy to cloud (Heroku/AWS)
